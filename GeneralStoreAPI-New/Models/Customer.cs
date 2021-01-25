@@ -17,6 +17,15 @@ namespace GeneralStoreAPI_New.Models
         [Required]
         public string LastName { get; set; }
 
-        public string FullName { get; set; }  //readonly
+        public string FullName { get; set; }
+        //readonly -- remove setter! Do another migration before running
+        /*{
+            get
+            {
+                string concatenate = FirstName + LastName;
+                return concatenate;
+            }
+        }*/
+        public virtual List<Transaction> Transactions { get; set; } = new List<Transaction>(); //?
     }
 }

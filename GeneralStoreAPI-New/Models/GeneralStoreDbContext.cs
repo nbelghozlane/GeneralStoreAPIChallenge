@@ -6,13 +6,16 @@ using System.Web;
 
 namespace GeneralStoreAPI_New.Models
 {
-    public class CustomerDbContext : DbContext
+    public class GeneralStoreDbContext : DbContext
     {
-        public CustomerDbContext() : base("DefaultConnection")
+        public GeneralStoreDbContext() : base("DefaultConnection")
         {
 
         }
 
         public DbSet<Customer> Customers { get; set; }
+        public DbSet<Product> Products { get; set; }
+        public DbSet<Transaction> Transactions { get; set; }
     }
 }
+

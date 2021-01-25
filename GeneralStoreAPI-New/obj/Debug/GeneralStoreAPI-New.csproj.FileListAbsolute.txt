@@ -116,3 +116,6 @@ C:\ElevenFifty Projects\DotNetProjects\GeneralStoreAPI-New\GeneralStoreAPI-New\o
 C:\ElevenFifty Projects\DotNetProjects\GeneralStoreAPI-New\GeneralStoreAPI-New\obj\Debug\GeneralStoreAPI-New.pdb
 C:\ElevenFifty Projects\DotNetProjects\GeneralStoreAPI-New\GeneralStoreAPI-New\obj\Debug\GeneralStoreAPI_New.Migrations.InitialMigration.resources
 C:\ElevenFifty Projects\DotNetProjects\GeneralStoreAPI-New\GeneralStoreAPI-New\obj\Debug\GeneralStoreAPI-New.csproj.GenerateResource.cache
+C:\ElevenFifty Projects\DotNetProjects\GeneralStoreAPI-New\GeneralStoreAPI-New\obj\Debug\GeneralStoreAPI_New.Migrations.GeneralStoreAPI_NewModelsProductDbContext.resources
+C:\ElevenFifty Projects\DotNetProjects\GeneralStoreAPI-New\GeneralStoreAPI-New\obj\Debug\GeneralStoreAPI_New.Migrations.AddedProducts.resources
+C:\ElevenFifty Projects\DotNetProjects\GeneralStoreAPI-New\GeneralStoreAPI-New\obj\Debug\GeneralStoreAPI_New.Migrations.AddedTransactions.resources

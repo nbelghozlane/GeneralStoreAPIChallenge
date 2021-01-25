@@ -12,7 +12,7 @@ namespace GeneralStoreAPI_New.Controllers
 {
     public class CustomerController : ApiController
     {
-        private readonly CustomerDbContext _context = new CustomerDbContext();
+        private readonly GeneralStoreDbContext _context = new GeneralStoreDbContext();
 
         [HttpPost]
         public async Task<IHttpActionResult> PostCustomer([FromBody] Customer model)
@@ -72,7 +72,7 @@ namespace GeneralStoreAPI_New.Controllers
 
             customer.FirstName = updatedCustomer.FirstName;
             customer.LastName = updatedCustomer.LastName;
-            customer.FullName = updatedCustomer.FullName;
+            //customer.FullName = updatedCustomer.FullName;
 
             await _context.SaveChangesAsync();
 
